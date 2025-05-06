@@ -1,4 +1,3 @@
-/* Reset and Layout */
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -8,7 +7,6 @@ body {
   text-align: center;
 }
 
-/* Header */
 .title {
   background-color: #007acc;
   color: #ffffff;
@@ -17,7 +15,6 @@ body {
   font-size: 2.5rem;
 }
 
-/* Button */
 .click-me-btn {
   font-size: 1.2rem;
   padding: 12px 25px;
@@ -35,14 +32,12 @@ body {
   color: #fff;
 }
 
-/* Subtitle */
 .subtitle {
   font-style: italic;
   font-size: 1.1rem;
   margin: 15px 0;
 }
 
-/* Cards */
 .cards-container {
   display: flex;
   justify-content: center;
@@ -85,7 +80,6 @@ body {
   text-align: center;
 }
 
-/* Submit Button */
 .btn {
   margin-top: 30px;
   padding: 12px 25px;
@@ -102,7 +96,6 @@ body {
   background-color: #005c99;
 }
 
-/* Note */
 .note {
   margin-top: 30px;
   font-size: 0.9rem;
@@ -110,7 +103,6 @@ body {
   padding: 0 20px;
 }
 
-/* Divider */
 hr {
   margin: 40px auto;
   width: 60%;
@@ -119,7 +111,6 @@ hr {
   border: none;
 }
 
-/* Footer */
 .footer {
   font-size: 1rem;
   color: #555;
