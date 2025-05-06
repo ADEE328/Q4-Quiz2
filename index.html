@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Score Analyzer</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header>
+    <h1 class="title">Score Analyzer</h1>
+  </header>
+
+  <main>
+    <button id="toggleButton" class="click-me-btn">▼ Click Me</button>
+
+    <div id="gradeSection" style="display: none;">
+      <p class="subtitle">Enter your grades in the following subjects.</p>
+
+      <div class="cards-container">
+        <div class="card">
+          <img src="https://cdn-icons-png.freepik.com/512/5403/5403827.png" alt="Science"/>
+          <label for="science">Science</label>
+          <input type="number" id="science" min="0" max="100">
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/12594/12594067.png" alt="Maths"/>
+          <label for="maths">Maths</label>
+          <input type="number" id="maths" min="0" max="100">
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3038/3038297.png" alt="English"/>
+          <label for="english">English</label>
+          <input type="number" id="english" min="0" max="100">
+        </div>
+      </div>
+
+      <button class="btn" onclick="calculateAverage()">Get Rating</button>
+
+      <p class="note">
+        Note: <em>Grading Criteria and Equivalents can vary depending on school or district.</em>
+      </p>
+
+      <hr/>
+    </div>
+  </main>
+
+  <footer class="footer">Aaron Dee</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

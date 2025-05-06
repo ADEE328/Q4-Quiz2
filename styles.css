@@ -1,0 +1,127 @@
+/* Reset and Layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9f5ff;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+.title {
+  background-color: #007acc;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* Button */
+.click-me-btn {
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  background-color: #ffffff;
+  color: #007acc;
+  border: 2px solid #007acc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.click-me-btn:hover {
+  background-color: #007acc;
+  color: #fff;
+}
+
+/* Subtitle */
+.subtitle {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 15px 0;
+}
+
+/* Cards */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.card input {
+  width: 100px;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Submit Button */
+.btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005c99;
+}
+
+/* Note */
+.note {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 0 20px;
+}
+
+/* Divider */
+hr {
+  margin: 40px auto;
+  width: 60%;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+/* Footer */
+.footer {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
